@@ -127,7 +127,7 @@ body {
 
 .viewIcon {
   position: absolute;
-  right: 30px;
+  right: 35px;
 }
 
 .userName label,
@@ -167,8 +167,7 @@ body {
 .remember {
   display: flex;
   align-items: center;
-  left: 0;
-  bottom: 110px;
+gap: 6px;
 }
 
 #html {
@@ -219,6 +218,11 @@ body {
   font-weight: 600;
   line-height: normal;
   cursor: pointer;
+}
+
+.loginBtn button:hover {
+  box-shadow: #23AC62 0.5px 0.5px 30px 0px;
+  transition: all 0.2s;
 }
 
 .loginBtn p {

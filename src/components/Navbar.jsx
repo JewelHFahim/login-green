@@ -1,3 +1,5 @@
+import "./Navbar.css"
+
 const Navbar = () => {
   return (
     <nav className="flex justify-between items-center px-[120px] py-2">
@@ -8,6 +10,9 @@ const Navbar = () => {
           className="w-[150px] h-[60px]"
         />
       </div>
+
+
+      <div className="flex items-center gap-20">
 
       <ul className="flex items-center gap-10">
         <li>
@@ -29,6 +34,31 @@ const Navbar = () => {
           <a href="/place-code">PlaceCode</a>
         </li>
       </ul>
+
+      <div className="flex justify-center items-center gap-5">
+          <div className="button-wrap-2 example">
+            <a href="https://signin-signup-form-mb.netlify.app/" className="circle"></a>
+            <div className="outer-circle oc1"></div>
+          </div>
+
+          <div className="button-wrap-2 example">
+            <a
+              href="https://login-green-version.netlify.app/"
+              className="circle"
+            ></a>
+            <div className="outer-circle oc2"></div>
+          </div>
+
+          <div className="button-wrap-2 example">
+            <a
+              href="https://login-purple-version.netlify.app/"
+              className="circle"
+            ></a>
+            <div className="outer-circle oc3"></div>
+          </div>
+        </div>
+
+      </div>
     </nav>
   );
 };
